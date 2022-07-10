@@ -21,7 +21,7 @@ public class Basic  {
 		   driver.findElement(By.xpath("//input[@id='login-username']")).sendKeys("abc@yahoo.com");
 		   driver.findElement(By.xpath("//input[@id='login-signin']")).click();
 		   String PageTitle = driver.getTitle();
-		   Thread.sleep(2000);
+		   //Thread.sleep(2000);
 
 		    System.out.println("PAge Title is" +PageTitle);
 
