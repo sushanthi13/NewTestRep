@@ -28,7 +28,7 @@ public class Browser {
 			  driver=new ChromeDriver();
 
 		}
-		driver.manage().timeouts().implicitlyWait(10,TimeUnit.SECONDS);
+		//driver.manage().timeouts().implicitlyWait(10,TimeUnit.SECONDS);
 		
 	}
 	@Test
