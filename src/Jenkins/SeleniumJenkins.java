@@ -17,6 +17,7 @@ public class SeleniumJenkins {
 	driver.manage().timeouts().implicitlyWait(20,TimeUnit.SECONDS);
 	driver.findElement(By.id("twotabsearchtextbox")).sendKeys("Oneplus8t");
 	driver.findElement(By.id("nav-search-submit-button")).click();
+	System.out.prinltn("deff");
 	
 	
 	driver.navigate().back();
